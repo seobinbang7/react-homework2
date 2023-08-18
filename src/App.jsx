@@ -7,6 +7,7 @@ function App() {
       <RootLayout>
         <Practice />
       </RootLayout>
+      
     </div>
   );
 }
