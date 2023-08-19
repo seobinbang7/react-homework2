@@ -1,13 +1,10 @@
-import RootLayout from './layout/RootLayout';
-import Practice from './pages/Practice/Practice';
+import { RouterProvider } from 'react-router-dom';
+import router from './routes';
 
 function App() {
   return (
     <div className="App">
-      <RootLayout>
-        <Practice />
-      </RootLayout>
-      
+      <RouterProvider router={router} />
     </div>
   );
 }
