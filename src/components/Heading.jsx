@@ -8,9 +8,7 @@ import Logo from './Logo';
 
 function Heading() {
   return <h1>
-    <Link to="/">
-      <Logo size={40} className="text-blue-300" />
-    </Link>
+    새벽의 빛
   </h1>;
 }
 

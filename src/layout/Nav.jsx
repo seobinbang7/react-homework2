@@ -9,7 +9,7 @@ function Nav() {
             to="/"
             className={({ isActive }) => isActive ? 'font-semibold text-rose-600' : ''}
           >
-            Home
+            홈
           </NavLink>
         </li>
         <li>
@@ -17,7 +17,7 @@ function Nav() {
             to="/products"
             className={({ isActive }) => isActive ? 'font-semibold text-rose-600' : ''}
           >
-            Products
+            장바구니
           </NavLink>
         </li>
         <li>
@@ -25,7 +25,7 @@ function Nav() {
             to="/contact"
             className={({ isActive }) => isActive ? 'font-semibold text-rose-600' : ''}
           >
-            Contact
+            주문하기
           </NavLink>
         </li>
       </ul>
